@@ -90,7 +90,10 @@ these to print: Good morning <prefix> <name>
 for example: Good morning Mr. Mustard
 */
 
-
+const combine = (first, prefix)=> {
+  console.log("Good morning " + prefix + " " +first)
+}
+combine()
 /* ***********************************************
 If you haven't already rewrite the functions above
 on a single line
